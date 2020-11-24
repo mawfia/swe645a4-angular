@@ -29,8 +29,8 @@ spec:
         tier: frontend
     spec:
       containers:
-      - name: angular
-        image: mawfia/angular:{{ .Values.version | default 1.0 }}
+      - name: angular-kafka
+        image: mawfia/swe645a4-angular:{{ .Values.version | default 1.0 }}
         ports:
           - name: angular
             containerPort: 80

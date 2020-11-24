@@ -1,6 +1,6 @@
 pipeline {
     environment {
-      registry = 'mawfia/angular'
+      registry = 'mawfia/swe645a4-angular'
       registryCredential = 'dockerhub-mawfia'
     }
     agent {
