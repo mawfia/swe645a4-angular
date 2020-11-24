@@ -11,6 +11,7 @@ spec:
   selector:
     app: express-angular-kafka
     tier: frontend
+  clusterIP: 10.100.26.82 # Must set to initial cluster IP otherwise will try to change with null value when field is immutable
 ---
 apiVersion: apps/v1
 kind: Deployment
